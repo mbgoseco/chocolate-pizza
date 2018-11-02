@@ -1,0 +1,58 @@
+#window {
+  width: 960px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#header {
+  width: 960px;
+  height: 45px;
+
+}
+
+#hlogo {
+  float: left;
+  display: block;
+  width: 300px;
+}
+
+#logo {
+  float: left;
+  padding-right: 10px;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 24px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+p {
+  display: table-cell;
+  font-family: Arial;
+  font-size: 8px;
+  margin-top: 0px;
+}
+
+.icons {
+  float: right;
+  display: block;
+  padding-top: 10px;
+  padding-left: 1px;
+}
+
+#gap {
+  margin-left: 5px;
+  float: right;
+  display: block;
+  padding-top: 10px;
+  padding-left: 1px;
+}
+
+hr {
+  margin-top: 30px;
+  height: 10px;
+}
