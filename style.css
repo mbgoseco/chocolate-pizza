@@ -56,7 +56,7 @@ body {
   padding-left: 1px;
 }
 
-hr {
+.hr-reg {
   margin-top: 30px;
   height: 10px;
   background-image:url('./assets/hr.png');
@@ -126,18 +126,57 @@ hr {
 }
 
 .list {
-  position: absolute;
+  display: inline-block;
+  vertical-align: right;
 }
 
 #listleft {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  width: 400px;
   float: left;
+  width: 400px;
 }
 
 #rightlist {
+  display: inline-block;
+}
+
+#van {
   float: left;
-  width: 400px;
+  margin-right: 20px;
+}
+
+#author {
+  font-size: 18px;
+  text-align: left;
+}
+
+#bio {
+  display: inline-block;
+  font-size: 16px;
+  text-align: left;
+  width: 600px;
+}
+
+.hr-small{
+  width: 48%;
+  display: inline-block;
+}
+#hr-img {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.copyright {
+  color: rgb(161, 161, 161);
+  text-align: center;
+  font-size: 12px;
+}
+
+button {
+  display: inline-block;
+  margin-top: -20px;
+  height: 50px;
+  width: 200px;
+  background-color: orange;
+  color: white;
+
 }
