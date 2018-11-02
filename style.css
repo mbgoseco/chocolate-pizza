@@ -6,6 +6,10 @@
 
 }
 
+body {
+  font-size: 20px;
+}
+
 #header {
   width: 960px;
   height: 45px;
@@ -23,17 +27,17 @@
   padding-right: 10px;
 }
 
-h1 {
-  font-family: 'Satisfy', cursive;
-  font-size: 24px;
-  margin-bottom: 0px;
+#delicious {
+  font-family: 'Yellowtail', cursive;
+  font-size: 28px;
+  margin-bottom: -5px;
   margin-top: 0px;
 }
 
-p {
+#blogline {
   display: table-cell;
   font-family: Arial;
-  font-size: 8px;
+  font-size: 9px;
   margin-top: 0px;
 }
 
@@ -55,4 +59,85 @@ p {
 hr {
   margin-top: 30px;
   height: 10px;
+  background-image:url('./assets/hr.png');
+  border: none;
+}
+
+#print {
+  font-family: 'Rajdhani', sans-serif;
+  color: rgb(161, 161, 161);
+  font-size: 12px;
+}
+
+#date {
+  font-family: 'Rajdhani', sans-serif;
+  color: rgb(161, 161, 161);
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+#chocopizza {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  margin-right: 0px;
+}
+
+#printbox {
+  float: right;
+  width: 50px;
+  height: 15.2px;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+#print {
+  text-align: right;
+  width: 40px;
+  margin: 0px;
+  float: right;
+  position: relative;
+}
+
+#posttitle {
+  /* float: left; */
+  width: 300px;
+  margin-right: 0px;
+}
+
+#plogo {
+  position: absolute;
+}
+
+#pizzaimg {
+  width: 960px;
+  padding-bottom: 15px;
+}
+
+#notepad {
+  margin-top: 25px;
+  background-size: contain;
+  height: 400px;
+  width: 960px;
+  background-image: url(./assets/list-bg.png);
+  background-repeat: no-repeat;
+}
+
+.list {
+  position: absolute;
+}
+
+#listleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 400px;
+  float: left;
+}
+
+#rightlist {
+  float: left;
+  width: 400px;
 }
